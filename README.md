@@ -1,26 +1,41 @@
-Case Study: Flexible and Scalable Network Structures for Data Centers
-Overview
+# Case Study: Flexible and Scalable Network Structures for Data Centers 🌐
 
-Modern data centers must support rapidly increasing workloads from cloud services, big data, and artificial intelligence. Traditional network architectures such as Fat-Tree and Three-Tier provide predictable performance but are costly, power-intensive, and difficult to scale as the data center grows.
+This repository contains a comprehensive case study on **SDCCP (Scalable Data-Center Network based on Cartesian Product)**, a proposed network topology designed to address the limitations of traditional Data Center Networks (DCNs) like Fat-Tree.
 
-This case study examines SDCCP (Scalable Data-Center Network based on Cartesian Product), a modular and cost-efficient topology that enables incremental expansion using commodity switches while maintaining high performance.
+## 📄 Abstract
 
-Key Concepts
+Modern data centers require network architectures that can handle exponential traffic growth from Cloud Computing, Big Data, and AI workloads. Traditional structures often face challenges regarding:
+-   **High Cost**: Expensive core switches and extensive cabling.
+-   **Scalability Limits**: Difficulty in incrementally adding servers without major restructuring.
+-   **Power Consumption**: Inefficient energy usage at scale.
 
-Data Center Networks (DCN) connect large numbers of servers using structured topologies.
+This case study analyzes **SDCCP**, a structure constructed using the Cartesian Product of graphs. It offers a more flexible, scalable, and cost-effective alternative by utilizing commodity switches and allowing modular expansion.
 
-Metrics used to evaluate DCNs: scalability, cost per server port, energy consumption, bandwidth, fault tolerance, and average path length.
+## 🔍 Key Findings
 
-Traditional DCN architectures: Fat-Tree, Leaf-Spine, BCube, DCell, and flexible reconfigurable models.
+### 1. Incremental Scalability
+Unlike Fat-Tree, which requires defined sizes (k-values), SDCCP allows for step-by-step expansion. New server units can be added modularly without redesigning the entire network.
 
-Analysis of SDCCP
+### 2. Cost Efficiency
+By leveraging standard commodity switches and reducing the number of required high-end core ports, SDCCP significantly lowers both Capital Expenditure (CAPEX) and Operational Expenditure (OPEX).
 
-SDCCP is constructed using the Cartesian product of smaller graph units, resulting in a modular design. This approach:
+### 3. Performance & Fault Tolerance
+The topology maintains:
+-   **Short Path Lengths**: Ensuring low latency.
+-   **High Bisection Width**: supporting high-bandwidth traffic.
+-   **Robustness**: Multiple alternative paths prevent single points of failure.
 
-Reduces deployment and operational cost
+## 📂 Deliverables
 
-Supports step-by-step expansion without network redesign
+This repository includes the full research analysis and presentation materials:
 
-Maintains short routing paths and high throughput
+-   **📜 [Case Study Report (PDF)](./Group-7%20Case%20Study%20Report.pdf)**: Detailed technical analysis, mathematical graph theory foundations, and performance comparisons.
+-   **📊 [Presentation Slides (PPT)](./Group-7%20Case%20Study%20PPT.pptx)**: Summary deck covering the problem statement, proposed solution, and conclusion.
 
-Lowers power consumption by reducing unnecessary links and switch load
+## 👥 Authors
+
+**Group 7**
+-   **Kanishk Khan** ([@Kanishkhan](https://github.com/Kanishkhan))
+
+---
+*This case study explores the future of green and efficient data center networking.*
