@@ -32,10 +32,6 @@ This repository includes the full research analysis and presentation materials:
 -   **📜 [Case Study Report (PDF)](./Group-7%20Case%20Study%20Report.pdf)**: Detailed technical analysis, mathematical graph theory foundations, and performance comparisons.
 -   **📊 [Presentation Slides (PPT)](./Group-7%20Case%20Study%20PPT.pptx)**: Summary deck covering the problem statement, proposed solution, and conclusion.
 
-## 👥 Authors
-
-**Group 7**
--   **Kanishk Khan** ([@Kanishkhan](https://github.com/Kanishkhan))
 
 ---
 *This case study explores the future of green and efficient data center networking.*
